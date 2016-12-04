@@ -4,7 +4,7 @@
     "description": "Fit Insurance Team app",
     "main": "app.js",
     "scripts": {
-        "start": "nodejs app.js"
+        "start": "node app.js"
     },
     "author": "PrasannaC",
     "license": "ISC",
