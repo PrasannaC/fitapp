@@ -1,0 +1,204 @@
+<!doctype html>
+
+<html lang="en" data-ng-app="fitApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>FIT - Home</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-orange.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        #view-source {
+            position: fixed;
+            display: block;
+            right: 0;
+            bottom: 0;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            z-index: 900;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgba(30, 160, 210, 0.28);" data-ng-controller="HomeController">
+    <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
+        <main class="mdl-layout__content">
+            <div class="demo-blog__posts mdl-grid">
+                <div class="mdl-card  mdl-cell mdl-cell--8-col">
+                    <div class=" mdl-shadow--2dp mdl-card__media logo-pic mdl-color-text--grey-50">
+
+                    </div>
+
+                </div>
+                <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
+                    <button data-ng-click="logout()" title="Logout" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab" style="background-color: #00bcd4;">
+              <i title="Logout" class="material-icons mdl-color-text--white"  role="presentation">power_settings_new</i>
+              <span class="visuallyhidden">add</span>
+            </button>
+                    <div style="background-color: #3f51b5;" class="mdl-card__media mdl-color-text--grey-600">
+                        <img style="background-color:white;height:256px;width:256px;" src="images/user.png">
+                    </div>
+                    <div class="mdl-card__supporting-text meta bg-blue mdl-color-text--grey-600">
+                        <div class="mdl-cell mdl-cell--4-col">
+                            <strong>Name: </strong>
+                        </div>
+                        <div><strong>{{data.FullName}}</strong></strong>
+                        </div>
+                    </div>
+                    <div class="mdl-card__supporting-text meta bg-blue mdl-color-text--grey-600">
+                        <div class="mdl-cell mdl-cell--4-col">
+                            <strong>Age: </strong>
+                        </div>
+                        <div><strong>{{data.age}} yrs.</strong></strong>
+                        </div>
+                    </div>
+                    <div class="mdl-card__supporting-text meta bg-blue mdl-color-text--grey-600">
+                        <div class="mdl-cell mdl-cell--4-col">
+                            <strong>Gender: </strong>
+                        </div>
+                        <div><strong>{{data.gender}}</strong></strong>
+                        </div>
+                    </div>
+                </div>
+                <!--<div style="min-height:200px !important; " class="mdl-card mdl-cell mdl-cell--3-col">
+                    <div class="weight-card mdl-card__supporting-text mdl-card__media mdl-color-text--grey-50" style="background-color:#009688;align-items: center !important;">
+                        <h3><strong>Weight: {{data.weight}} kg.</strong></h3>
+                    </div>
+
+                </div>-->
+
+                <div style="min-height: 127px !important;width: 639px !important;padding: 16px;font-size: 16px!important;" class=" bg-green mdl-card mdl-cell mdl-cell--7-col">
+                    <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                        <thead>
+                            <tr>
+
+                                <th>Weight</th>
+                                <th>Total Body Fat</th>
+                                <th>Visceral Fat</th>
+                                <th>Resting Metabolism</th>
+                                <th>BMI</th>
+                                <th>Body Age</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="data in datas2">
+                                <td>{{data.weight}} kg</td>
+                                <td>{{data.fat}}%</td>
+                                <td>{{data.vfat}}</td>
+                                <td>{{data.rm}}kcal</td>
+                                <td>{{data.bmi}}</td>
+                                <td>{{data.bodyage}} years</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <table style="    width: 592px !important;margin-top: 20px;" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                        <thead>
+                            <tr>
+
+                                <th>
+                                    <center>Subcutaneuous Fat<br>(Body)
+                                        <center>
+                                </th>
+                                <th>
+                                    <center>Subcutaneuous Fat<br>(Trunk)
+                                        <center>
+                                </th>
+                                <th>
+                                    <center>Subcutaneuous Fat<br>(Arms)
+                                        <center>
+                                </th>
+                                <th>
+                                    <center>Subcutaneuous Fat<br>(Legs)
+                                        <center>
+                                </th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="datax in datas3">
+                                <td>{{data.subc-body}}%</td>
+                                <td>{{data.subc-trunk}}%</td>
+                                <td>{{data.subc-arms}}%</td>
+                                <td>{{data.subc-legs}}%</td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <table style="    width: 592px !important;margin-top: 20px;" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                        <thead>
+                            <tr>
+
+
+                                <th>
+                                    <center>Skeletal Muscle<br>(Body)
+                                    </center>
+                                </th>
+                                <th>
+                                    <center>Skeletal Muscle<br>(Trunk)
+                                    </center>
+                                </th>
+                                <th>
+                                    <center>Skeletal Muscle<br>(Arms)
+                                    </center>
+                                </th>
+                                <th>
+                                    <center>Skeletal Muscle<br>(Legs)
+                                    </center>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="datay in datas">
+
+                                <td>{{data.skel-body}}%</td>
+                                <td>{{data.skel-body}}%</td>
+                                <td>{{data.skel-body}}%</td>
+                                <td>{{data.skel-body}}%</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <!--<div style="min-height: 127px !important;width: 607px !important;padding: 16px;font-size: 16px!important;" class="mdl-card mdl-cell mdl-cell--7-col">
+
+                </div>
+                <div style="min-height: 127px !important;width: 540px !important;padding: 16px;font-size: 16px!important;" class="mdl-card mdl-cell mdl-cell--7-col">
+
+                </div>-->
+            </div>
+            </footer>
+        </main>
+        <div class="mdl-layout__obfuscator"></div>
+    </div>
+
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script>
+    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
+        var link = el.querySelector('a');
+        if (!link) {
+            return;
+        }
+        var target = link.getAttribute('href');
+        if (!target) {
+            return;
+        }
+        el.addEventListener('click', function() {
+            location.href = target;
+        });
+    });
+</script>
+
+</html>
