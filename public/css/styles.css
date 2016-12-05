@@ -8649,3 +8649,7 @@ body .demo-blog {
     background-color: white;
     box-sizing: border-box;
 }
+
+td {
+    text-align: center !important;
+}

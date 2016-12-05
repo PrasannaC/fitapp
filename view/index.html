@@ -78,12 +78,12 @@
                         <thead>
                             <tr>
 
-                                <th>Weight</th>
-                                <th>Total Body Fat</th>
-                                <th>Visceral Fat</th>
-                                <th>Resting Metabolism</th>
-                                <th>BMI</th>
-                                <th>Body Age</th>
+                                <th class="mdl-data-table__cell--non-numeric">Weight</th>
+                                <th class="mdl-data-table__cell--non-numeric">Total Body Fat</th>
+                                <th class="mdl-data-table__cell--non-numeric">Visceral Fat</th>
+                                <th class="mdl-data-table__cell--non-numeric">Resting Metabolism</th>
+                                <th class="mdl-data-table__cell--non-numeric">BMI</th>
+                                <th class="mdl-data-table__cell--non-numeric">Body Age</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -102,19 +102,19 @@
                         <thead>
                             <tr>
 
-                                <th>
+                                <th class="mdl-data-table__cell--non-numeric">
                                     <center>Subcutaneuous Fat<br>(Body)
                                         <center>
                                 </th>
-                                <th>
+                                <th class="mdl-data-table__cell--non-numeric">
                                     <center>Subcutaneuous Fat<br>(Trunk)
                                         <center>
                                 </th>
-                                <th>
+                                <th class="mdl-data-table__cell--non-numeric">
                                     <center>Subcutaneuous Fat<br>(Arms)
                                         <center>
                                 </th>
-                                <th>
+                                <th class="mdl-data-table__cell--non-numeric">
                                     <center>Subcutaneuous Fat<br>(Legs)
                                         <center>
                                 </th>
@@ -138,19 +138,19 @@
                             <tr>
 
 
-                                <th>
+                                <th class="mdl-data-table__cell--non-numeric">
                                     <center>Skeletal Muscle<br>(Body)
                                     </center>
                                 </th>
-                                <th>
+                                <th class="mdl-data-table__cell--non-numeric">
                                     <center>Skeletal Muscle<br>(Trunk)
                                     </center>
                                 </th>
-                                <th>
+                                <th class="mdl-data-table__cell--non-numeric">
                                     <center>Skeletal Muscle<br>(Arms)
                                     </center>
                                 </th>
-                                <th>
+                                <th class="mdl-data-table__cell--non-numeric">
                                     <center>Skeletal Muscle<br>(Legs)
                                     </center>
                                 </th>
@@ -161,9 +161,9 @@
                             <tr data-ng-repeat="data in datas">
 
                                 <td>{{data.skel_body}}%</td>
-                                <td>{{data.skel_body}}%</td>
-                                <td>{{data.skel_body}}%</td>
-                                <td>{{data.skel_body}}%</td>
+                                <td>{{data.skel_trunk}}%</td>
+                                <td>{{data.skel_arms}}%</td>
+                                <td>{{data.skel_legs}}%</td>
                             </tr>
 
                         </tbody>
