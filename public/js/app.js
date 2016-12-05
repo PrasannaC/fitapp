@@ -86,7 +86,7 @@ app.factory("CheckAuth", function($window, $http, $q) {
             if (!isNaN(Number(key))) {
                 var req = {
                     method: 'POST',
-                    url: 'http://localhost:3000/GetData',
+                    url: 'https://fitnodeapp.herokuapp.com/GetData',
                     data: { 'key': key }
                 }
                 $http(req).then(function(response) {
