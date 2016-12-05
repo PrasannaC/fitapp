@@ -1923,7 +1923,7 @@ var initialData = [{
 ];
 
 
-mongoose.connect('mongodb://localhost/fitdb');
+mongoose.connect('mongodb://user:user123@ds159737.mlab.com:59737/mongodeebeeb');
 
 var PersonSchema = new Schema({
     name: 'String',
