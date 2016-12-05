@@ -1992,8 +1992,8 @@ app.use(function(req, res, next) {
     next();
 });
 
-app.get('/', function(req, res) {
-    res.send('Ping');
+app.get('/', function(request, response) {
+    response.redirect('/login');
 });
 
 
@@ -2040,6 +2040,6 @@ app.post('/GetData', function(req, res) {
 });
 
 app.listen(process.env.PORT || 80, function() {
-    console.log('Example app listening on port 3000!')
-    console.log(usernames.length);
+
+
 });
