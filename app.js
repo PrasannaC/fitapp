@@ -4,7 +4,10 @@ var app = express();
 var mongoose = require('mongoose');
 
 var Schema = mongoose.Schema;
-
+var http = require("http");
+setInterval(function() {
+    http.get("http://fitnodeapp.herokuapp.com");
+}, 300000);
 
 var initialData = [{
         "name": "Archana Chavan",
