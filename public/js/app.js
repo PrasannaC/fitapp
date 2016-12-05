@@ -24,7 +24,7 @@ app.controller("LoginController", function($scope, $http, $window, CheckAuth) {
         console.log($scope.password);
         var req = {
             method: 'POST',
-            url: 'http://localhost:3000/auth',
+            url: 'https://fitnodeapp.herokuapp.com/auth',
             data: { username: $scope.username, password: $scope.password }
         }
 
