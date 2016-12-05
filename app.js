@@ -18,14 +18,14 @@ var initialData = [{
             "rm": 1278,
             "bmi": 22.6,
             "bodyage": 37,
-            "subc-body": 26.5,
-            "subc-trunk": 24.9,
-            "subc-arms": 44.3,
-            "subc-legs": 39.3,
-            "skel-body": 25.5,
-            "skel-trunk": 20.1,
-            "skel-arms": 27,
-            "skel-legs": 37.9
+            "subc_body": 26.5,
+            "subc_trunk": 24.9,
+            "subc_arms": 44.3,
+            "subc_legs": 39.3,
+            "skel_body": 25.5,
+            "skel_trunk": 20.1,
+            "skel_arms": 27,
+            "skel_legs": 37.9
         }]
     },
     {
@@ -40,14 +40,14 @@ var initialData = [{
             "rm": 930,
             "bmi": 17.2,
             "bodyage": 18,
-            "subc-body": 22.5,
-            "subc-trunk": 20.3,
-            "subc-arms": 43.7,
-            "subc-legs": 34.8,
-            "skel-body": 25,
-            "skel-trunk": 21.4,
-            "skel-arms": 31.4,
-            "skel-legs": 33.6
+            "subc_body": 22.5,
+            "subc_trunk": 20.3,
+            "subc_arms": 43.7,
+            "subc_legs": 34.8,
+            "skel_body": 25,
+            "skel_trunk": 21.4,
+            "skel_arms": 31.4,
+            "skel_legs": 33.6
         }]
     },
     {
@@ -62,14 +62,14 @@ var initialData = [{
             "rm": "",
             "bmi": "",
             "bodyage": "",
-            "subc-body": "",
-            "subc-trunk": "",
-            "subc-arms": "",
-            "subc-legs": "",
-            "skel-body": "",
-            "skel-trunk": "",
-            "skel-arms": "",
-            "skel-legs": ""
+            "subc_body": "",
+            "subc_trunk": "",
+            "subc_arms": "",
+            "subc_legs": "",
+            "skel_body": "",
+            "skel_trunk": "",
+            "skel_arms": "",
+            "skel_legs": ""
         }]
     },
     {
@@ -84,14 +84,14 @@ var initialData = [{
             "rm": 1181,
             "bmi": 22,
             "bodyage": 32,
-            "subc-body": 27.1,
-            "subc-trunk": 24,
-            "subc-arms": "47..2",
-            "subc-legs": 41.6,
-            "skel-body": 24.4,
-            "skel-trunk": 19.8,
-            "skel-arms": 27,
-            "skel-legs": 35.8
+            "subc_body": 27.1,
+            "subc_trunk": 24,
+            "subc_arms": "47..2",
+            "subc_legs": 41.6,
+            "skel_body": 24.4,
+            "skel_trunk": 19.8,
+            "skel_arms": 27,
+            "skel_legs": 35.8
         }]
     },
     {
@@ -106,14 +106,14 @@ var initialData = [{
             "rm": "",
             "bmi": "",
             "bodyage": "",
-            "subc-body": "",
-            "subc-trunk": "",
-            "subc-arms": "",
-            "subc-legs": "",
-            "skel-body": "",
-            "skel-trunk": "",
-            "skel-arms": "",
-            "skel-legs": ""
+            "subc_body": "",
+            "subc_trunk": "",
+            "subc_arms": "",
+            "subc_legs": "",
+            "skel_body": "",
+            "skel_trunk": "",
+            "skel_arms": "",
+            "skel_legs": ""
         }]
     },
     {
@@ -128,14 +128,14 @@ var initialData = [{
             "rm": 1404,
             "bmi": 22.9,
             "bodyage": 30,
-            "subc-body": 23.3,
-            "subc-trunk": 18.5,
-            "subc-arms": 35.2,
-            "subc-legs": 32.1,
-            "skel-body": 30,
-            "skel-trunk": 23.4,
-            "skel-arms": 31.1,
-            "skel-legs": 45.3
+            "subc_body": 23.3,
+            "subc_trunk": 18.5,
+            "subc_arms": 35.2,
+            "subc_legs": 32.1,
+            "skel_body": 30,
+            "skel_trunk": 23.4,
+            "skel_arms": 31.1,
+            "skel_legs": 45.3
         }]
     },
     {
@@ -150,14 +150,14 @@ var initialData = [{
             "rm": 1142,
             "bmi": 20.2,
             "bodyage": 30,
-            "subc-body": 25.9,
-            "subc-trunk": 23.4,
-            "subc-arms": 47.5,
-            "subc-legs": 40.5,
-            "skel-body": 24.7,
-            "skel-trunk": 20.3,
-            "skel-arms": 27.9,
-            "skel-legs": 35
+            "subc_body": 25.9,
+            "subc_trunk": 23.4,
+            "subc_arms": 47.5,
+            "subc_legs": 40.5,
+            "skel_body": 24.7,
+            "skel_trunk": 20.3,
+            "skel_arms": 27.9,
+            "skel_legs": 35
         }]
     },
     {
@@ -172,14 +172,14 @@ var initialData = [{
             "rm": 1489,
             "bmi": 28.3,
             "bodyage": 53,
-            "subc-body": 33.1,
-            "subc-trunk": 29,
-            "subc-arms": 49.3,
-            "subc-legs": 45.6,
-            "skel-body": 23.9,
-            "skel-trunk": 17.3,
-            "skel-arms": 21.7,
-            "skel-legs": 37.7
+            "subc_body": 33.1,
+            "subc_trunk": 29,
+            "subc_arms": 49.3,
+            "subc_legs": 45.6,
+            "skel_body": 23.9,
+            "skel_trunk": 17.3,
+            "skel_arms": 21.7,
+            "skel_legs": 37.7
         }]
     },
     {
@@ -194,14 +194,14 @@ var initialData = [{
             "rm": 1409,
             "bmi": 26.1,
             "bodyage": 40,
-            "subc-body": 30.6,
-            "subc-trunk": 26.8,
-            "subc-arms": 48.7,
-            "subc-legs": 45.3,
-            "skel-body": 24.5,
-            "skel-trunk": 18.8,
-            "skel-arms": 23.7,
-            "skel-legs": 37.5
+            "subc_body": 30.6,
+            "subc_trunk": 26.8,
+            "subc_arms": 48.7,
+            "subc_legs": 45.3,
+            "skel_body": 24.5,
+            "skel_trunk": 18.8,
+            "skel_arms": 23.7,
+            "skel_legs": 37.5
         }]
     },
     {
@@ -216,14 +216,14 @@ var initialData = [{
             "rm": 1360,
             "bmi": 24.9,
             "bodyage": 50,
-            "subc-body": 29.8,
-            "subc-trunk": 26.2,
-            "subc-arms": 47.3,
-            "subc-legs": 42.2,
-            "skel-body": 24.2,
-            "skel-trunk": 18.2,
-            "skel-arms": 24,
-            "skel-legs": 36.7
+            "subc_body": 29.8,
+            "subc_trunk": 26.2,
+            "subc_arms": 47.3,
+            "subc_legs": 42.2,
+            "skel_body": 24.2,
+            "skel_trunk": 18.2,
+            "skel_arms": 24,
+            "skel_legs": 36.7
         }]
     },
     {
@@ -238,14 +238,14 @@ var initialData = [{
             "rm": 1180,
             "bmi": 21.1,
             "bodyage": 34,
-            "subc-body": 26.3,
-            "subc-trunk": 23.4,
-            "subc-arms": 46.6,
-            "subc-legs": 40.3,
-            "skel-body": 24.7,
-            "skel-trunk": 20,
-            "skel-arms": 27.3,
-            "skel-legs": 35.9
+            "subc_body": 26.3,
+            "subc_trunk": 23.4,
+            "subc_arms": 46.6,
+            "subc_legs": 40.3,
+            "skel_body": 24.7,
+            "skel_trunk": 20,
+            "skel_arms": 27.3,
+            "skel_legs": 35.9
         }]
     },
     {
@@ -260,14 +260,14 @@ var initialData = [{
             "rm": 1110,
             "bmi": 19.3,
             "bodyage": 22,
-            "subc-body": 20.6,
-            "subc-trunk": 16.5,
-            "subc-arms": 36,
-            "subc-legs": 31.7,
-            "skel-body": 27.7,
-            "skel-trunk": 23.1,
-            "skel-arms": 32.2,
-            "skel-legs": 39.9
+            "subc_body": 20.6,
+            "subc_trunk": 16.5,
+            "subc_arms": 36,
+            "subc_legs": 31.7,
+            "skel_body": 27.7,
+            "skel_trunk": 23.1,
+            "skel_arms": 32.2,
+            "skel_legs": 39.9
         }]
     },
     {
@@ -282,14 +282,14 @@ var initialData = [{
             "rm": 1161,
             "bmi": 18.8,
             "bodyage": 18,
-            "subc-body": 13,
-            "subc-trunk": 9.1,
-            "subc-arms": 23.7,
-            "subc-legs": 23,
-            "skel-body": 33.4,
-            "skel-trunk": 28,
-            "skel-arms": 38.9,
-            "skel-legs": 49.1
+            "subc_body": 13,
+            "subc_trunk": 9.1,
+            "subc_arms": 23.7,
+            "subc_legs": 23,
+            "skel_body": 33.4,
+            "skel_trunk": 28,
+            "skel_arms": 38.9,
+            "skel_legs": 49.1
         }]
     },
     {
@@ -304,14 +304,14 @@ var initialData = [{
             "rm": 1491,
             "bmi": 27.8,
             "bodyage": 44,
-            "subc-body": 31.1,
-            "subc-trunk": 26.6,
-            "subc-arms": 45.2,
-            "subc-legs": 42.2,
-            "skel-body": 25.7,
-            "skel-trunk": 19,
-            "skel-arms": 24.2,
-            "skel-legs": 40.8
+            "subc_body": 31.1,
+            "subc_trunk": 26.6,
+            "subc_arms": 45.2,
+            "subc_legs": 42.2,
+            "skel_body": 25.7,
+            "skel_trunk": 19,
+            "skel_arms": 24.2,
+            "skel_legs": 40.8
         }]
     },
     {
@@ -326,14 +326,14 @@ var initialData = [{
             "rm": 1421,
             "bmi": 28.3,
             "bodyage": 44,
-            "subc-body": 31.7,
-            "subc-trunk": 27.1,
-            "subc-arms": 45.9,
-            "subc-legs": 43.2,
-            "skel-body": 24.9,
-            "skel-trunk": 18.6,
-            "skel-arms": 24.2,
-            "skel-legs": 38.7
+            "subc_body": 31.7,
+            "subc_trunk": 27.1,
+            "subc_arms": 45.9,
+            "subc_legs": 43.2,
+            "skel_body": 24.9,
+            "skel_trunk": 18.6,
+            "skel_arms": 24.2,
+            "skel_legs": 38.7
         }]
     },
     {
@@ -348,14 +348,14 @@ var initialData = [{
             "rm": 1020,
             "bmi": 16.7,
             "bodyage": 18,
-            "subc-body": 16.1,
-            "subc-trunk": 11.8,
-            "subc-arms": 30.3,
-            "subc-legs": 26.5,
-            "skel-body": 29.2,
-            "skel-trunk": 25.1,
-            "skel-arms": 35.5,
-            "skel-legs": 39.8
+            "subc_body": 16.1,
+            "subc_trunk": 11.8,
+            "subc_arms": 30.3,
+            "subc_legs": 26.5,
+            "skel_body": 29.2,
+            "skel_trunk": 25.1,
+            "skel_arms": 35.5,
+            "skel_legs": 39.8
         }]
     },
     {
@@ -370,14 +370,14 @@ var initialData = [{
             "rm": 1318,
             "bmi": 24.7,
             "bodyage": 43,
-            "subc-body": 28.8,
-            "subc-trunk": 25.1,
-            "subc-arms": 46,
-            "subc-legs": 41.6,
-            "skel-body": 24.7,
-            "skel-trunk": 19,
-            "skel-arms": 25.3,
-            "skel-legs": 37.6
+            "subc_body": 28.8,
+            "subc_trunk": 25.1,
+            "subc_arms": 46,
+            "subc_legs": 41.6,
+            "skel_body": 24.7,
+            "skel_trunk": 19,
+            "skel_arms": 25.3,
+            "skel_legs": 37.6
         }]
     },
     {
@@ -392,14 +392,14 @@ var initialData = [{
             "rm": 1250,
             "bmi": 22.5,
             "bodyage": 31,
-            "subc-body": 25.1,
-            "subc-trunk": 21.1,
-            "subc-arms": 41.3,
-            "subc-legs": 37.3,
-            "skel-body": 26.4,
-            "skel-trunk": 21.2,
-            "skel-arms": 28.7,
-            "skel-legs": 38.8
+            "subc_body": 25.1,
+            "subc_trunk": 21.1,
+            "subc_arms": 41.3,
+            "subc_legs": 37.3,
+            "skel_body": 26.4,
+            "skel_trunk": 21.2,
+            "skel_arms": 28.7,
+            "skel_legs": 38.8
         }]
     },
     {
@@ -414,14 +414,14 @@ var initialData = [{
             "rm": 1181,
             "bmi": 20.8,
             "bodyage": 30,
-            "subc-body": 24.3,
-            "subc-trunk": 20.9,
-            "subc-arms": 42.3,
-            "subc-legs": 36.9,
-            "skel-body": 25.9,
-            "skel-trunk": 21.1,
-            "skel-arms": 29,
-            "skel-legs": 37
+            "subc_body": 24.3,
+            "subc_trunk": 20.9,
+            "subc_arms": 42.3,
+            "subc_legs": 36.9,
+            "skel_body": 25.9,
+            "skel_trunk": 21.1,
+            "skel_arms": 29,
+            "skel_legs": 37
         }]
     },
     {
@@ -436,14 +436,14 @@ var initialData = [{
             "rm": 1235,
             "bmi": 25.7,
             "bodyage": 40,
-            "subc-body": 30.8,
-            "subc-trunk": 27.2,
-            "subc-arms": 49.7,
-            "subc-legs": 45.7,
-            "skel-body": 23.2,
-            "skel-trunk": 18.2,
-            "skel-arms": 24.6,
-            "skel-legs": 36
+            "subc_body": 30.8,
+            "subc_trunk": 27.2,
+            "subc_arms": 49.7,
+            "subc_legs": 45.7,
+            "skel_body": 23.2,
+            "skel_trunk": 18.2,
+            "skel_arms": 24.6,
+            "skel_legs": 36
         }]
     },
     {
@@ -458,14 +458,14 @@ var initialData = [{
             "rm": 1156,
             "bmi": 20.2,
             "bodyage": 25,
-            "subc-body": 23.7,
-            "subc-trunk": 20.4,
-            "subc-arms": 42.4,
-            "subc-legs": 37,
-            "skel-body": 26.1,
-            "skel-trunk": 21.6,
-            "skel-arms": 29.6,
-            "skel-legs": 37.5
+            "subc_body": 23.7,
+            "subc_trunk": 20.4,
+            "subc_arms": 42.4,
+            "subc_legs": 37,
+            "skel_body": 26.1,
+            "skel_trunk": 21.6,
+            "skel_arms": 29.6,
+            "skel_legs": 37.5
         }]
     },
     {
@@ -480,14 +480,14 @@ var initialData = [{
             "rm": 1191,
             "bmi": 20.1,
             "bodyage": 25,
-            "subc-body": 22.9,
-            "subc-trunk": 19.3,
-            "subc-arms": 40.4,
-            "subc-legs": 35.4,
-            "skel-body": 26.9,
-            "skel-trunk": 22.1,
-            "skel-arms": 30.1,
-            "skel-legs": 38.3
+            "subc_body": 22.9,
+            "subc_trunk": 19.3,
+            "subc_arms": 40.4,
+            "subc_legs": 35.4,
+            "skel_body": 26.9,
+            "skel_trunk": 22.1,
+            "skel_arms": 30.1,
+            "skel_legs": 38.3
         }]
     },
     {
@@ -502,14 +502,14 @@ var initialData = [{
             "rm": 1160,
             "bmi": 21.9,
             "bodyage": 31,
-            "subc-body": 24.5,
-            "subc-trunk": 20.5,
-            "subc-arms": 40.5,
-            "subc-legs": 36.1,
-            "skel-body": 26,
-            "skel-trunk": 21,
-            "skel-arms": 29.3,
-            "skel-legs": 38.5
+            "subc_body": 24.5,
+            "subc_trunk": 20.5,
+            "subc_arms": 40.5,
+            "subc_legs": 36.1,
+            "skel_body": 26,
+            "skel_trunk": 21,
+            "skel_arms": 29.3,
+            "skel_legs": 38.5
         }]
     },
     {
@@ -524,14 +524,14 @@ var initialData = [{
             "rm": 1179,
             "bmi": 21.1,
             "bodyage": 32,
-            "subc-body": 26.4,
-            "subc-trunk": 23.6,
-            "subc-arms": 47.2,
-            "subc-legs": 41,
-            "skel-body": 24.7,
-            "skel-trunk": 20.1,
-            "skel-arms": 27.3,
-            "skel-legs": 36
+            "subc_body": 26.4,
+            "subc_trunk": 23.6,
+            "subc_arms": 47.2,
+            "subc_legs": 41,
+            "skel_body": 24.7,
+            "skel_trunk": 20.1,
+            "skel_arms": 27.3,
+            "skel_legs": 36
         }]
     },
     {
@@ -546,14 +546,14 @@ var initialData = [{
             "rm": 1678,
             "bmi": 24.7,
             "bodyage": 37,
-            "subc-body": 15.5,
-            "subc-trunk": 13.9,
-            "subc-arms": 22,
-            "subc-legs": 21.6,
-            "skel-body": 33.4,
-            "skel-trunk": 26.5,
-            "skel-arms": 38.8,
-            "skel-legs": 50.6
+            "subc_body": 15.5,
+            "subc_trunk": 13.9,
+            "subc_arms": 22,
+            "subc_legs": 21.6,
+            "skel_body": 33.4,
+            "skel_trunk": 26.5,
+            "skel_arms": 38.8,
+            "skel_legs": 50.6
         }]
     },
     {
@@ -568,14 +568,14 @@ var initialData = [{
             "rm": 1452,
             "bmi": 22.9,
             "bodyage": 34,
-            "subc-body": 18,
-            "subc-trunk": 16,
-            "subc-arms": 26.7,
-            "subc-legs": 26.7,
-            "skel-body": 31,
-            "skel-trunk": 23.4,
-            "skel-arms": 38.3,
-            "skel-legs": 48.4
+            "subc_body": 18,
+            "subc_trunk": 16,
+            "subc_arms": 26.7,
+            "subc_legs": 26.7,
+            "skel_body": 31,
+            "skel_trunk": 23.4,
+            "skel_arms": 38.3,
+            "skel_legs": 48.4
         }]
     },
     {
@@ -590,14 +590,14 @@ var initialData = [{
             "rm": 1620,
             "bmi": 23.4,
             "bodyage": 31,
-            "subc-body": 14.7,
-            "subc-trunk": 13,
-            "subc-arms": 21.9,
-            "subc-legs": 21.4,
-            "skel-body": 34,
-            "skel-trunk": 27.3,
-            "skel-arms": 39.1,
-            "skel-legs": 51.2
+            "subc_body": 14.7,
+            "subc_trunk": 13,
+            "subc_arms": 21.9,
+            "subc_legs": 21.4,
+            "skel_body": 34,
+            "skel_trunk": 27.3,
+            "skel_arms": 39.1,
+            "skel_legs": 51.2
         }]
     },
     {
@@ -612,14 +612,14 @@ var initialData = [{
             "rm": 1362,
             "bmi": 17,
             "bodyage": 18,
-            "subc-body": 15.5,
-            "subc-trunk": 13,
-            "subc-arms": 23.1,
-            "subc-legs": 23,
-            "skel-body": 34.5,
-            "skel-trunk": 26.8,
-            "skel-arms": 40.6,
-            "skel-legs": 51.7
+            "subc_body": 15.5,
+            "subc_trunk": 13,
+            "subc_arms": 23.1,
+            "subc_legs": 23,
+            "skel_body": 34.5,
+            "skel_trunk": 26.8,
+            "skel_arms": 40.6,
+            "skel_legs": 51.7
         }]
     },
     {
@@ -634,14 +634,14 @@ var initialData = [{
             "rm": 1750,
             "bmi": 25.4,
             "bodyage": 43,
-            "subc-body": 16,
-            "subc-trunk": 14.4,
-            "subc-arms": 21.6,
-            "subc-legs": 21.4,
-            "skel-body": 33,
-            "skel-trunk": 26,
-            "skel-arms": 37.8,
-            "skel-legs": 50.2
+            "subc_body": 16,
+            "subc_trunk": 14.4,
+            "subc_arms": 21.6,
+            "subc_legs": 21.4,
+            "skel_body": 33,
+            "skel_trunk": 26,
+            "skel_arms": 37.8,
+            "skel_legs": 50.2
         }]
     },
     {
@@ -656,14 +656,14 @@ var initialData = [{
             "rm": 1574,
             "bmi": 20.8,
             "bodyage": 29,
-            "subc-body": 14,
-            "subc-trunk": 12.1,
-            "subc-arms": 21.1,
-            "subc-legs": 20.6,
-            "skel-body": 34.5,
-            "skel-trunk": 27.7,
-            "skel-arms": 40,
-            "skel-legs": 51.7
+            "subc_body": 14,
+            "subc_trunk": 12.1,
+            "subc_arms": 21.1,
+            "subc_legs": 20.6,
+            "skel_body": 34.5,
+            "skel_trunk": 27.7,
+            "skel_arms": 40,
+            "skel_legs": 51.7
         }]
     },
     {
@@ -678,14 +678,14 @@ var initialData = [{
             "rm": 1444,
             "bmi": 18.7,
             "bodyage": 18,
-            "subc-body": 10.2,
-            "subc-trunk": 8.5,
-            "subc-arms": 16.4,
-            "subc-legs": 15.4,
-            "skel-body": 36.5,
-            "skel-trunk": 30.8,
-            "skel-arms": 41.8,
-            "skel-legs": 53.6
+            "subc_body": 10.2,
+            "subc_trunk": 8.5,
+            "subc_arms": 16.4,
+            "subc_legs": 15.4,
+            "skel_body": 36.5,
+            "skel_trunk": 30.8,
+            "skel_arms": 41.8,
+            "skel_legs": 53.6
         }]
     },
     {
@@ -700,14 +700,14 @@ var initialData = [{
             "rm": 1717,
             "bmi": 23.1,
             "bodyage": 36,
-            "subc-body": 15.7,
-            "subc-trunk": 13.9,
-            "subc-arms": 22.9,
-            "subc-legs": 22.6,
-            "skel-body": 33.5,
-            "skel-trunk": 26.4,
-            "skel-arms": 38.5,
-            "skel-legs": 50.8
+            "subc_body": 15.7,
+            "subc_trunk": 13.9,
+            "subc_arms": 22.9,
+            "subc_legs": 22.6,
+            "skel_body": 33.5,
+            "skel_trunk": 26.4,
+            "skel_arms": 38.5,
+            "skel_legs": 50.8
         }]
     },
     {
@@ -722,14 +722,14 @@ var initialData = [{
             "rm": 1535,
             "bmi": 23.9,
             "bodyage": 41,
-            "subc-body": 17.3,
-            "subc-trunk": 15.4,
-            "subc-arms": 24.8,
-            "subc-legs": 24.7,
-            "skel-body": 30.9,
-            "skel-trunk": 23.8,
-            "skel-arms": 37.5,
-            "skel-legs": 48.3
+            "subc_body": 17.3,
+            "subc_trunk": 15.4,
+            "subc_arms": 24.8,
+            "subc_legs": 24.7,
+            "skel_body": 30.9,
+            "skel_trunk": 23.8,
+            "skel_arms": 37.5,
+            "skel_legs": 48.3
         }]
     },
     {
@@ -744,14 +744,14 @@ var initialData = [{
             "rm": 1626,
             "bmi": 23,
             "bodyage": 36,
-            "subc-body": 16.3,
-            "subc-trunk": 14.5,
-            "subc-arms": 23.9,
-            "subc-legs": 23.7,
-            "skel-body": 32.7,
-            "skel-trunk": 25.5,
-            "skel-arms": 38.4,
-            "skel-legs": 50
+            "subc_body": 16.3,
+            "subc_trunk": 14.5,
+            "subc_arms": 23.9,
+            "subc_legs": 23.7,
+            "skel_body": 32.7,
+            "skel_trunk": 25.5,
+            "skel_arms": 38.4,
+            "skel_legs": 50
         }]
     },
     {
@@ -766,14 +766,14 @@ var initialData = [{
             "rm": 1448,
             "bmi": 18.8,
             "bodyage": 19,
-            "subc-body": 11.1,
-            "subc-trunk": 9.3,
-            "subc-arms": 17.6,
-            "subc-legs": 16.7,
-            "skel-body": 36,
-            "skel-trunk": 30.1,
-            "skel-arms": 41.1,
-            "skel-legs": 53.2
+            "subc_body": 11.1,
+            "subc_trunk": 9.3,
+            "subc_arms": 17.6,
+            "subc_legs": 16.7,
+            "skel_body": 36,
+            "skel_trunk": 30.1,
+            "skel_arms": 41.1,
+            "skel_legs": 53.2
         }]
     },
     {
@@ -788,14 +788,14 @@ var initialData = [{
             "rm": 1953,
             "bmi": 26.1,
             "bodyage": 42,
-            "subc-body": 16.2,
-            "subc-trunk": 14.7,
-            "subc-arms": 21.4,
-            "subc-legs": 21.2,
-            "skel-body": 34.3,
-            "skel-trunk": 27,
-            "skel-arms": 38.1,
-            "skel-legs": 51.5
+            "subc_body": 16.2,
+            "subc_trunk": 14.7,
+            "subc_arms": 21.4,
+            "subc_legs": 21.2,
+            "skel_body": 34.3,
+            "skel_trunk": 27,
+            "skel_arms": 38.1,
+            "skel_legs": 51.5
         }]
     },
     {
@@ -810,14 +810,14 @@ var initialData = [{
             "rm": 1243,
             "bmi": 16.2,
             "bodyage": 18,
-            "subc-body": 7.3,
-            "subc-trunk": 5.7,
-            "subc-arms": 13.3,
-            "subc-legs": 11.9,
-            "skel-body": 37.7,
-            "skel-trunk": 32.9,
-            "skel-arms": 44,
-            "skel-legs": 54.8
+            "subc_body": 7.3,
+            "subc_trunk": 5.7,
+            "subc_arms": 13.3,
+            "subc_legs": 11.9,
+            "skel_body": 37.7,
+            "skel_trunk": 32.9,
+            "skel_arms": 44,
+            "skel_legs": 54.8
         }]
     },
     {
@@ -832,14 +832,14 @@ var initialData = [{
             "rm": 1575,
             "bmi": 26.4,
             "bodyage": 44,
-            "subc-body": 22.1,
-            "subc-trunk": 20,
-            "subc-arms": 33.1,
-            "subc-legs": 33.5,
-            "skel-body": 28.8,
-            "skel-trunk": 20.2,
-            "skel-arms": 36.6,
-            "skel-legs": 46.3
+            "subc_body": 22.1,
+            "subc_trunk": 20,
+            "subc_arms": 33.1,
+            "subc_legs": 33.5,
+            "skel_body": 28.8,
+            "skel_trunk": 20.2,
+            "skel_arms": 36.6,
+            "skel_legs": 46.3
         }]
     },
     {
@@ -854,14 +854,14 @@ var initialData = [{
             "rm": 1542,
             "bmi": 21.2,
             "bodyage": 22,
-            "subc-body": 8.6,
-            "subc-trunk": 7.2,
-            "subc-arms": 13.4,
-            "subc-legs": 12.2,
-            "skel-body": 37.5,
-            "skel-trunk": 32.5,
-            "skel-arms": 42.9,
-            "skel-legs": 54.6
+            "subc_body": 8.6,
+            "subc_trunk": 7.2,
+            "subc_arms": 13.4,
+            "subc_legs": 12.2,
+            "skel_body": 37.5,
+            "skel_trunk": 32.5,
+            "skel_arms": 42.9,
+            "skel_legs": 54.6
         }]
     },
     {
@@ -876,14 +876,14 @@ var initialData = [{
             "rm": 1903,
             "bmi": 29.8,
             "bodyage": 51,
-            "subc-body": 19.4,
-            "subc-trunk": 17.9,
-            "subc-arms": 25.1,
-            "subc-legs": 25.4,
-            "skel-body": 31.2,
-            "skel-trunk": 23.5,
-            "skel-arms": 35.8,
-            "skel-legs": 48.6
+            "subc_body": 19.4,
+            "subc_trunk": 17.9,
+            "subc_arms": 25.1,
+            "subc_legs": 25.4,
+            "skel_body": 31.2,
+            "skel_trunk": 23.5,
+            "skel_arms": 35.8,
+            "skel_legs": 48.6
         }]
     },
     {
@@ -898,14 +898,14 @@ var initialData = [{
             "rm": 17.41,
             "bmi": 25.2,
             "bodyage": 39,
-            "subc-body": 16.2,
-            "subc-trunk": 14.6,
-            "subc-arms": 22.8,
-            "subc-legs": 22.5,
-            "skel-body": 33.2,
-            "skel-trunk": 26.1,
-            "skel-arms": 38.3,
-            "skel-legs": 50.4
+            "subc_body": 16.2,
+            "subc_trunk": 14.6,
+            "subc_arms": 22.8,
+            "subc_legs": 22.5,
+            "skel_body": 33.2,
+            "skel_trunk": 26.1,
+            "skel_arms": 38.3,
+            "skel_legs": 50.4
         }]
     },
     {
@@ -920,14 +920,14 @@ var initialData = [{
             "rm": 1694,
             "bmi": 27,
             "bodyage": 47,
-            "subc-body": 20.7,
-            "subc-trunk": 18.8,
-            "subc-arms": 30.1,
-            "subc-legs": 30.4,
-            "skel-body": 29.7,
-            "skel-trunk": 21.5,
-            "skel-arms": 35.9,
-            "skel-legs": 47.1
+            "subc_body": 20.7,
+            "subc_trunk": 18.8,
+            "subc_arms": 30.1,
+            "subc_legs": 30.4,
+            "skel_body": 29.7,
+            "skel_trunk": 21.5,
+            "skel_arms": 35.9,
+            "skel_legs": 47.1
         }]
     },
     {
@@ -942,14 +942,14 @@ var initialData = [{
             "rm": 1741,
             "bmi": 25,
             "bodyage": 36,
-            "subc-body": 15.2,
-            "subc-trunk": 13.7,
-            "subc-arms": 21.5,
-            "subc-legs": 21.1,
-            "skel-body": 34,
-            "skel-trunk": 27.1,
-            "skel-arms": 38.8,
-            "skel-legs": 51.2
+            "subc_body": 15.2,
+            "subc_trunk": 13.7,
+            "subc_arms": 21.5,
+            "subc_legs": 21.1,
+            "skel_body": 34,
+            "skel_trunk": 27.1,
+            "skel_arms": 38.8,
+            "skel_legs": 51.2
         }]
     },
     {
@@ -964,14 +964,14 @@ var initialData = [{
             "rm": 1580,
             "bmi": 23,
             "bodyage": 36,
-            "subc-body": 16.6,
-            "subc-trunk": 14.7,
-            "subc-arms": 24.3,
-            "subc-legs": 24.1,
-            "skel-body": 32.3,
-            "skel-trunk": 25.1,
-            "skel-arms": 38.4,
-            "skel-legs": 49.6
+            "subc_body": 16.6,
+            "subc_trunk": 14.7,
+            "subc_arms": 24.3,
+            "subc_legs": 24.1,
+            "skel_body": 32.3,
+            "skel_trunk": 25.1,
+            "skel_arms": 38.4,
+            "skel_legs": 49.6
         }]
     },
     {
@@ -986,14 +986,14 @@ var initialData = [{
             "rm": "",
             "bmi": "",
             "bodyage": "",
-            "subc-body": "",
-            "subc-trunk": "",
-            "subc-arms": "",
-            "subc-legs": "",
-            "skel-body": "",
-            "skel-trunk": "",
-            "skel-arms": "",
-            "skel-legs": ""
+            "subc_body": "",
+            "subc_trunk": "",
+            "subc_arms": "",
+            "subc_legs": "",
+            "skel_body": "",
+            "skel_trunk": "",
+            "skel_arms": "",
+            "skel_legs": ""
         }]
     },
     {
@@ -1008,14 +1008,14 @@ var initialData = [{
             "rm": 1875,
             "bmi": 26.4,
             "bodyage": 38,
-            "subc-body": 15.2,
-            "subc-trunk": 13.8,
-            "subc-arms": 20.2,
-            "subc-legs": 19.9,
-            "skel-body": 34.8,
-            "skel-trunk": 27.9,
-            "skel-arms": 38.4,
-            "skel-legs": 52
+            "subc_body": 15.2,
+            "subc_trunk": 13.8,
+            "subc_arms": 20.2,
+            "subc_legs": 19.9,
+            "skel_body": 34.8,
+            "skel_trunk": 27.9,
+            "skel_arms": 38.4,
+            "skel_legs": 52
         }]
     },
     {
@@ -1030,14 +1030,14 @@ var initialData = [{
             "rm": 1665,
             "bmi": 25.6,
             "bodyage": 40,
-            "subc-body": 17,
-            "subc-trunk": 15.4,
-            "subc-arms": 24.2,
-            "subc-legs": 24,
-            "skel-body": 32,
-            "skel-trunk": 24.8,
-            "skel-arms": 37.7,
-            "skel-legs": 49.3
+            "subc_body": 17,
+            "subc_trunk": 15.4,
+            "subc_arms": 24.2,
+            "subc_legs": 24,
+            "skel_body": 32,
+            "skel_trunk": 24.8,
+            "skel_arms": 37.7,
+            "skel_legs": 49.3
         }]
     },
     {
@@ -1052,14 +1052,14 @@ var initialData = [{
             "rm": 1715,
             "bmi": 25.4,
             "bodyage": 40,
-            "subc-body": 15.2,
-            "subc-trunk": 13.7,
-            "subc-arms": 20.7,
-            "subc-legs": 20.3,
-            "skel-body": 33.5,
-            "skel-trunk": 26.8,
-            "skel-arms": 38.1,
-            "skel-legs": 50.7
+            "subc_body": 15.2,
+            "subc_trunk": 13.7,
+            "subc_arms": 20.7,
+            "subc_legs": 20.3,
+            "skel_body": 33.5,
+            "skel_trunk": 26.8,
+            "skel_arms": 38.1,
+            "skel_legs": 50.7
         }]
     },
     {
@@ -1074,14 +1074,14 @@ var initialData = [{
             "rm": 1189,
             "bmi": 16.8,
             "bodyage": 18,
-            "subc-body": 20,
-            "subc-trunk": 17,
-            "subc-arms": 27.8,
-            "subc-legs": 28.6,
-            "skel-body": 32.8,
-            "skel-trunk": 23.4,
-            "skel-arms": 39.8,
-            "skel-legs": 50.1
+            "subc_body": 20,
+            "subc_trunk": 17,
+            "subc_arms": 27.8,
+            "subc_legs": 28.6,
+            "skel_body": 32.8,
+            "skel_trunk": 23.4,
+            "skel_arms": 39.8,
+            "skel_legs": 50.1
         }]
     },
     {
@@ -1096,14 +1096,14 @@ var initialData = [{
             "rm": 1557,
             "bmi": 22.1,
             "bodyage": 39,
-            "subc-body": 19,
-            "subc-trunk": 16.8,
-            "subc-arms": 28.1,
-            "subc-legs": 28.3,
-            "skel-body": 31.2,
-            "skel-trunk": 23,
-            "skel-arms": 37.6,
-            "skel-legs": 48.5
+            "subc_body": 19,
+            "subc_trunk": 16.8,
+            "subc_arms": 28.1,
+            "subc_legs": 28.3,
+            "skel_body": 31.2,
+            "skel_trunk": 23,
+            "skel_arms": 37.6,
+            "skel_legs": 48.5
         }]
     },
     {
@@ -1118,14 +1118,14 @@ var initialData = [{
             "rm": 1419,
             "bmi": 20.4,
             "bodyage": 24,
-            "subc-body": 11.3,
-            "subc-trunk": 9.7,
-            "subc-arms": 17.4,
-            "subc-legs": 16.5,
-            "skel-body": 34.7,
-            "skel-trunk": 29.1,
-            "skel-arms": 40.3,
-            "skel-legs": 51.9
+            "subc_body": 11.3,
+            "subc_trunk": 9.7,
+            "subc_arms": 17.4,
+            "subc_legs": 16.5,
+            "skel_body": 34.7,
+            "skel_trunk": 29.1,
+            "skel_arms": 40.3,
+            "skel_legs": 51.9
         }]
     },
     {
@@ -1140,14 +1140,14 @@ var initialData = [{
             "rm": 1618,
             "bmi": 21.9,
             "bodyage": 34,
-            "subc-body": 15,
-            "subc-trunk": 13.1,
-            "subc-arms": 21.8,
-            "subc-legs": 21.5,
-            "skel-body": 33.6,
-            "skel-trunk": 26.7,
-            "skel-arms": 39.1,
-            "skel-legs": 50.8
+            "subc_body": 15,
+            "subc_trunk": 13.1,
+            "subc_arms": 21.8,
+            "subc_legs": 21.5,
+            "skel_body": 33.6,
+            "skel_trunk": 26.7,
+            "skel_arms": 39.1,
+            "skel_legs": 50.8
         }]
     },
     {
@@ -1162,14 +1162,14 @@ var initialData = [{
             "rm": 1699,
             "bmi": 24.1,
             "bodyage": 33,
-            "subc-body": 14.8,
-            "subc-trunk": 13.2,
-            "subc-arms": 21.5,
-            "subc-legs": 21.1,
-            "skel-body": 34.2,
-            "skel-trunk": 27.4,
-            "skel-arms": 39.4,
-            "skel-legs": 51.5
+            "subc_body": 14.8,
+            "subc_trunk": 13.2,
+            "subc_arms": 21.5,
+            "subc_legs": 21.1,
+            "skel_body": 34.2,
+            "skel_trunk": 27.4,
+            "skel_arms": 39.4,
+            "skel_legs": 51.5
         }]
     },
     {
@@ -1184,14 +1184,14 @@ var initialData = [{
             "rm": 1908,
             "bmi": 25.8,
             "bodyage": 40,
-            "subc-body": 16.9,
-            "subc-trunk": 15.2,
-            "subc-arms": 23.6,
-            "subc-legs": 23.5,
-            "skel-body": 33.6,
-            "skel-trunk": 26.1,
-            "skel-arms": 38.1,
-            "skel-legs": 50.8
+            "subc_body": 16.9,
+            "subc_trunk": 15.2,
+            "subc_arms": 23.6,
+            "subc_legs": 23.5,
+            "skel_body": 33.6,
+            "skel_trunk": 26.1,
+            "skel_arms": 38.1,
+            "skel_legs": 50.8
         }]
     },
     {
@@ -1206,14 +1206,14 @@ var initialData = [{
             "rm": 1416,
             "bmi": 20.3,
             "bodyage": 24,
-            "subc-body": 15.3,
-            "subc-trunk": 13.2,
-            "subc-arms": 23.3,
-            "subc-legs": 23,
-            "skel-body": 33.5,
-            "skel-trunk": 26.5,
-            "skel-arms": 40.2,
-            "skel-legs": 50.9
+            "subc_body": 15.3,
+            "subc_trunk": 13.2,
+            "subc_arms": 23.3,
+            "subc_legs": 23,
+            "skel_body": 33.5,
+            "skel_trunk": 26.5,
+            "skel_arms": 40.2,
+            "skel_legs": 50.9
         }]
     },
     {
@@ -1228,14 +1228,14 @@ var initialData = [{
             "rm": 1791,
             "bmi": 23.1,
             "bodyage": 28,
-            "subc-body": 9.2,
-            "subc-trunk": 8.1,
-            "subc-arms": 11.7,
-            "subc-legs": 10.7,
-            "skel-body": 39.4,
-            "skel-trunk": 33.8,
-            "skel-arms": 43.1,
-            "skel-legs": 56.4
+            "subc_body": 9.2,
+            "subc_trunk": 8.1,
+            "subc_arms": 11.7,
+            "subc_legs": 10.7,
+            "skel_body": 39.4,
+            "skel_trunk": 33.8,
+            "skel_arms": 43.1,
+            "skel_legs": 56.4
         }]
     },
     {
@@ -1250,14 +1250,14 @@ var initialData = [{
             "rm": 1754,
             "bmi": 23.3,
             "bodyage": 32,
-            "subc-body": 13.7,
-            "subc-trunk": 12.1,
-            "subc-arms": 19.6,
-            "subc-legs": 19.1,
-            "skel-body": 35.3,
-            "skel-trunk": 28.7,
-            "skel-arms": 39.1,
-            "skel-legs": 52.5
+            "subc_body": 13.7,
+            "subc_trunk": 12.1,
+            "subc_arms": 19.6,
+            "subc_legs": 19.1,
+            "skel_body": 35.3,
+            "skel_trunk": 28.7,
+            "skel_arms": 39.1,
+            "skel_legs": 52.5
         }]
     },
     {
@@ -1272,14 +1272,14 @@ var initialData = [{
             "rm": "",
             "bmi": "",
             "bodyage": "",
-            "subc-body": "",
-            "subc-trunk": "",
-            "subc-arms": "",
-            "subc-legs": "",
-            "skel-body": "",
-            "skel-trunk": "",
-            "skel-arms": "",
-            "skel-legs": ""
+            "subc_body": "",
+            "subc_trunk": "",
+            "subc_arms": "",
+            "subc_legs": "",
+            "skel_body": "",
+            "skel_trunk": "",
+            "skel_arms": "",
+            "skel_legs": ""
         }]
     },
     {
@@ -1294,14 +1294,14 @@ var initialData = [{
             "rm": 1734,
             "bmi": 25.7,
             "bodyage": 49,
-            "subc-body": 19.3,
-            "subc-trunk": 17.4,
-            "subc-arms": 26.9,
-            "subc-legs": 27.1,
-            "skel-body": 30.4,
-            "skel-trunk": 22.6,
-            "skel-arms": 37,
-            "skel-legs": 47.8
+            "subc_body": 19.3,
+            "subc_trunk": 17.4,
+            "subc_arms": 26.9,
+            "subc_legs": 27.1,
+            "skel_body": 30.4,
+            "skel_trunk": 22.6,
+            "skel_arms": 37,
+            "skel_legs": 47.8
         }]
     },
     {
@@ -1316,14 +1316,14 @@ var initialData = [{
             "rm": 1354,
             "bmi": 19.1,
             "bodyage": 23,
-            "subc-body": 10.9,
-            "subc-trunk": 9.2,
-            "subc-arms": 16.7,
-            "subc-legs": 15.9,
-            "skel-body": 34.4,
-            "skel-trunk": 28.9,
-            "skel-arms": 40.6,
-            "skel-legs": 51.6
+            "subc_body": 10.9,
+            "subc_trunk": 9.2,
+            "subc_arms": 16.7,
+            "subc_legs": 15.9,
+            "skel_body": 34.4,
+            "skel_trunk": 28.9,
+            "skel_arms": 40.6,
+            "skel_legs": 51.6
         }]
     },
     {
@@ -1338,14 +1338,14 @@ var initialData = [{
             "rm": 1565,
             "bmi": 22.5,
             "bodyage": 35,
-            "subc-body": 15.8,
-            "subc-trunk": 13.9,
-            "subc-arms": 23.1,
-            "subc-legs": 22.8,
-            "skel-body": 32.8,
-            "skel-trunk": 25.8,
-            "skel-arms": 38.9,
-            "skel-legs": 50.1
+            "subc_body": 15.8,
+            "subc_trunk": 13.9,
+            "subc_arms": 23.1,
+            "subc_legs": 22.8,
+            "skel_body": 32.8,
+            "skel_trunk": 25.8,
+            "skel_arms": 38.9,
+            "skel_legs": 50.1
         }]
     },
     {
@@ -1360,14 +1360,14 @@ var initialData = [{
             "rm": 1684,
             "bmi": 24,
             "bodyage": 36,
-            "subc-body": 15.8,
-            "subc-trunk": 14.1,
-            "subc-arms": 22.9,
-            "subc-legs": 22.6,
-            "skel-body": 33.4,
-            "skel-trunk": 26.3,
-            "skel-arms": 38.2,
-            "skel-legs": 50.6
+            "subc_body": 15.8,
+            "subc_trunk": 14.1,
+            "subc_arms": 22.9,
+            "subc_legs": 22.6,
+            "skel_body": 33.4,
+            "skel_trunk": 26.3,
+            "skel_arms": 38.2,
+            "skel_legs": 50.6
         }]
     },
     {
@@ -1382,14 +1382,14 @@ var initialData = [{
             "rm": 1405,
             "bmi": 19.8,
             "bodyage": 30,
-            "subc-body": 20.5,
-            "subc-trunk": 17.8,
-            "subc-arms": 30.3,
-            "subc-legs": 30.8,
-            "skel-body": 31.5,
-            "skel-trunk": 22.4,
-            "skel-arms": 37.8,
-            "skel-legs": 48.8
+            "subc_body": 20.5,
+            "subc_trunk": 17.8,
+            "subc_arms": 30.3,
+            "subc_legs": 30.8,
+            "skel_body": 31.5,
+            "skel_trunk": 22.4,
+            "skel_arms": 37.8,
+            "skel_legs": 48.8
         }]
     },
     {
@@ -1404,14 +1404,14 @@ var initialData = [{
             "rm": 1827,
             "bmi": 29.3,
             "bodyage": 46,
-            "subc-body": 18.6,
-            "subc-trunk": 17.2,
-            "subc-arms": 24.8,
-            "subc-legs": 24.8,
-            "skel-body": 31.5,
-            "skel-trunk": 24,
-            "skel-arms": 36.5,
-            "skel-legs": 48.8
+            "subc_body": 18.6,
+            "subc_trunk": 17.2,
+            "subc_arms": 24.8,
+            "subc_legs": 24.8,
+            "skel_body": 31.5,
+            "skel_trunk": 24,
+            "skel_arms": 36.5,
+            "skel_legs": 48.8
         }]
     },
     {
@@ -1426,14 +1426,14 @@ var initialData = [{
             "rm": 1712,
             "bmi": 25,
             "bodyage": 39,
-            "subc-body": 18.5,
-            "subc-trunk": 16.6,
-            "subc-arms": 27.2,
-            "subc-legs": 27.2,
-            "skel-body": 31.8,
-            "skel-trunk": 24.8,
-            "skel-arms": 38.1,
-            "skel-legs": 49.1
+            "subc_body": 18.5,
+            "subc_trunk": 16.6,
+            "subc_arms": 27.2,
+            "subc_legs": 27.2,
+            "skel_body": 31.8,
+            "skel_trunk": 24.8,
+            "skel_arms": 38.1,
+            "skel_legs": 49.1
         }]
     },
     {
@@ -1448,14 +1448,14 @@ var initialData = [{
             "rm": 1567,
             "bmi": 20.9,
             "bodyage": 24,
-            "subc-body": 9.6,
-            "subc-trunk": 8.2,
-            "subc-arms": 14.7,
-            "subc-legs": 13.6,
-            "skel-body": 37,
-            "skel-trunk": 31.7,
-            "skel-arms": 41.1,
-            "skel-legs": 54.1
+            "subc_body": 9.6,
+            "subc_trunk": 8.2,
+            "subc_arms": 14.7,
+            "subc_legs": 13.6,
+            "skel_body": 37,
+            "skel_trunk": 31.7,
+            "skel_arms": 41.1,
+            "skel_legs": 54.1
         }]
     },
     {
@@ -1470,14 +1470,14 @@ var initialData = [{
             "rm": 1834,
             "bmi": 26.3,
             "bodyage": 47,
-            "subc-body": 21.8,
-            "subc-trunk": 19.7,
-            "subc-arms": 32.7,
-            "subc-legs": 33,
-            "skel-body": 30,
-            "skel-trunk": 21.2,
-            "skel-arms": 36.5,
-            "skel-legs": 47.4
+            "subc_body": 21.8,
+            "subc_trunk": 19.7,
+            "subc_arms": 32.7,
+            "subc_legs": 33,
+            "skel_body": 30,
+            "skel_trunk": 21.2,
+            "skel_arms": 36.5,
+            "skel_legs": 47.4
         }]
     },
     {
@@ -1492,14 +1492,14 @@ var initialData = [{
             "rm": 1561,
             "bmi": 24.1,
             "bodyage": 35,
-            "subc-body": 15.9,
-            "subc-trunk": 14.2,
-            "subc-arms": 23.2,
-            "subc-legs": 22.9,
-            "skel-body": 32.4,
-            "skel-trunk": 25.6,
-            "skel-arms": 38.4,
-            "skel-legs": 49.7
+            "subc_body": 15.9,
+            "subc_trunk": 14.2,
+            "subc_arms": 23.2,
+            "subc_legs": 22.9,
+            "skel_body": 32.4,
+            "skel_trunk": 25.6,
+            "skel_arms": 38.4,
+            "skel_legs": 49.7
         }]
     },
     {
@@ -1514,14 +1514,14 @@ var initialData = [{
             "rm": 1736,
             "bmi": 24.5,
             "bodyage": 39,
-            "subc-body": 17.8,
-            "subc-trunk": 15.9,
-            "subc-arms": 26.1,
-            "subc-legs": 26,
-            "skel-body": 32.3,
-            "skel-trunk": 24.6,
-            "skel-arms": 38.1,
-            "skel-legs": 49.6
+            "subc_body": 17.8,
+            "subc_trunk": 15.9,
+            "subc_arms": 26.1,
+            "subc_legs": 26,
+            "skel_body": 32.3,
+            "skel_trunk": 24.6,
+            "skel_arms": 38.1,
+            "skel_legs": 49.6
         }]
     },
     {
@@ -1536,14 +1536,14 @@ var initialData = [{
             "rm": 1594,
             "bmi": 23.1,
             "bodyage": 35,
-            "subc-body": 15.7,
-            "subc-trunk": 13.9,
-            "subc-arms": 22.9,
-            "subc-legs": 22.6,
-            "skel-body": 32.9,
-            "skel-trunk": 25.9,
-            "skel-arms": 38.2,
-            "skel-legs": 50.1
+            "subc_body": 15.7,
+            "subc_trunk": 13.9,
+            "subc_arms": 22.9,
+            "subc_legs": 22.6,
+            "skel_body": 32.9,
+            "skel_trunk": 25.9,
+            "skel_arms": 38.2,
+            "skel_legs": 50.1
         }]
     },
     {
@@ -1558,14 +1558,14 @@ var initialData = [{
             "rm": 1610,
             "bmi": 20.8,
             "bodyage": 27,
-            "subc-body": 13.4,
-            "subc-trunk": 11.6,
-            "subc-arms": 20.4,
-            "subc-legs": 19.8,
-            "skel-body": 35,
-            "skel-trunk": 28.4,
-            "skel-arms": 40.4,
-            "skel-legs": 52.2
+            "subc_body": 13.4,
+            "subc_trunk": 11.6,
+            "subc_arms": 20.4,
+            "subc_legs": 19.8,
+            "skel_body": 35,
+            "skel_trunk": 28.4,
+            "skel_arms": 40.4,
+            "skel_legs": 52.2
         }]
     },
     {
@@ -1580,14 +1580,14 @@ var initialData = [{
             "rm": "",
             "bmi": "",
             "bodyage": "",
-            "subc-body": "",
-            "subc-trunk": "",
-            "subc-arms": "",
-            "subc-legs": "",
-            "skel-body": "",
-            "skel-trunk": "",
-            "skel-arms": "",
-            "skel-legs": ""
+            "subc_body": "",
+            "subc_trunk": "",
+            "subc_arms": "",
+            "subc_legs": "",
+            "skel_body": "",
+            "skel_trunk": "",
+            "skel_arms": "",
+            "skel_legs": ""
         }]
     },
     {
@@ -1602,14 +1602,14 @@ var initialData = [{
             "rm": 1625,
             "bmi": 24.4,
             "bodyage": 40,
-            "subc-body": 17.9,
-            "subc-trunk": 16,
-            "subc-arms": 25.9,
-            "subc-legs": 25.9,
-            "skel-body": 31.5,
-            "skel-trunk": 24,
-            "skel-arms": 37.8,
-            "skel-legs": 48.8
+            "subc_body": 17.9,
+            "subc_trunk": 16,
+            "subc_arms": 25.9,
+            "subc_legs": 25.9,
+            "skel_body": 31.5,
+            "skel_trunk": 24,
+            "skel_arms": 37.8,
+            "skel_legs": 48.8
         }]
     },
     {
@@ -1624,14 +1624,14 @@ var initialData = [{
             "rm": 1755,
             "bmi": 25.4,
             "bodyage": 43,
-            "subc-body": 19.1,
-            "subc-trunk": 17.2,
-            "subc-arms": 27.8,
-            "subc-legs": 27.9,
-            "skel-body": 31.3,
-            "skel-trunk": 23.3,
-            "skel-arms": 37.3,
-            "skel-legs": 48.6
+            "subc_body": 19.1,
+            "subc_trunk": 17.2,
+            "subc_arms": 27.8,
+            "subc_legs": 27.9,
+            "skel_body": 31.3,
+            "skel_trunk": 23.3,
+            "skel_arms": 37.3,
+            "skel_legs": 48.6
         }]
     },
     {
@@ -1646,14 +1646,14 @@ var initialData = [{
             "rm": 1895,
             "bmi": 28.5,
             "bodyage": 50,
-            "subc-body": 20.9,
-            "subc-trunk": 19.1,
-            "subc-arms": 29.6,
-            "subc-legs": 29.9,
-            "skel-body": 30.2,
-            "skel-trunk": 21.9,
-            "skel-arms": 36,
-            "skel-legs": 47.6
+            "subc_body": 20.9,
+            "subc_trunk": 19.1,
+            "subc_arms": 29.6,
+            "subc_legs": 29.9,
+            "skel_body": 30.2,
+            "skel_trunk": 21.9,
+            "skel_arms": 36,
+            "skel_legs": 47.6
         }]
     },
     {
@@ -1668,14 +1668,14 @@ var initialData = [{
             "rm": 1599,
             "bmi": 21.3,
             "bodyage": 29,
-            "subc-body": 13.4,
-            "subc-trunk": 11.7,
-            "subc-arms": 20,
-            "subc-legs": 19.5,
-            "skel-body": 34.8,
-            "skel-trunk": 28.3,
-            "skel-arms": 40.5,
-            "skel-legs": 52
+            "subc_body": 13.4,
+            "subc_trunk": 11.7,
+            "subc_arms": 20,
+            "subc_legs": 19.5,
+            "skel_body": 34.8,
+            "skel_trunk": 28.3,
+            "skel_arms": 40.5,
+            "skel_legs": 52
         }]
     },
     {
@@ -1690,14 +1690,14 @@ var initialData = [{
             "rm": 1711,
             "bmi": 23.2,
             "bodyage": 33,
-            "subc-body": 12.8,
-            "subc-trunk": 11.3,
-            "subc-arms": 18,
-            "subc-legs": 17.4,
-            "skel-body": 35.5,
-            "skel-trunk": 29.2,
-            "skel-arms": 39.8,
-            "skel-legs": 52.7
+            "subc_body": 12.8,
+            "subc_trunk": 11.3,
+            "subc_arms": 18,
+            "subc_legs": 17.4,
+            "skel_body": 35.5,
+            "skel_trunk": 29.2,
+            "skel_arms": 39.8,
+            "skel_legs": 52.7
         }]
     },
     {
@@ -1712,14 +1712,14 @@ var initialData = [{
             "rm": 1487,
             "bmi": 22,
             "bodyage": 35,
-            "subc-body": 18.1,
-            "subc-trunk": 15.9,
-            "subc-arms": 26.8,
-            "subc-legs": 26.9,
-            "skel-body": 31.5,
-            "skel-trunk": 23.7,
-            "skel-arms": 38.3,
-            "skel-legs": 48.8
+            "subc_body": 18.1,
+            "subc_trunk": 15.9,
+            "subc_arms": 26.8,
+            "subc_legs": 26.9,
+            "skel_body": 31.5,
+            "skel_trunk": 23.7,
+            "skel_arms": 38.3,
+            "skel_legs": 48.8
         }]
     },
     {
@@ -1734,14 +1734,14 @@ var initialData = [{
             "rm": 1256,
             "bmi": 20,
             "bodyage": 28,
-            "subc-body": 22.1,
-            "subc-trunk": 18.3,
-            "subc-arms": 38.4,
-            "subc-legs": 33.7,
-            "skel-body": 27.8,
-            "skel-trunk": 22.5,
-            "skel-arms": 30.3,
-            "skel-legs": 39.8
+            "subc_body": 22.1,
+            "subc_trunk": 18.3,
+            "subc_arms": 38.4,
+            "subc_legs": 33.7,
+            "skel_body": 27.8,
+            "skel_trunk": 22.5,
+            "skel_arms": 30.3,
+            "skel_legs": 39.8
         }]
     },
     {
@@ -1756,14 +1756,14 @@ var initialData = [{
             "rm": 1270,
             "bmi": 18.9,
             "bodyage": 24,
-            "subc-body": 21.4,
-            "subc-trunk": 17.9,
-            "subc-arms": 39.2,
-            "subc-legs": 34.1,
-            "skel-body": 28,
-            "skel-trunk": 22.9,
-            "skel-arms": 30.4,
-            "skel-legs": 40
+            "subc_body": 21.4,
+            "subc_trunk": 17.9,
+            "subc_arms": 39.2,
+            "subc_legs": 34.1,
+            "skel_body": 28,
+            "skel_trunk": 22.9,
+            "skel_arms": 30.4,
+            "skel_legs": 40
         }]
     },
     {
@@ -1778,14 +1778,14 @@ var initialData = [{
             "rm": 1561,
             "bmi": 20.4,
             "bodyage": 24,
-            "subc-body": 12.2,
-            "subc-trunk": 10.4,
-            "subc-arms": 18.8,
-            "subc-legs": 18.1,
-            "skel-body": 35.8,
-            "skel-trunk": 29.5,
-            "skel-arms": 41.1,
-            "skel-legs": 52.9
+            "subc_body": 12.2,
+            "subc_trunk": 10.4,
+            "subc_arms": 18.8,
+            "subc_legs": 18.1,
+            "skel_body": 35.8,
+            "skel_trunk": 29.5,
+            "skel_arms": 41.1,
+            "skel_legs": 52.9
         }]
     },
     {
@@ -1800,14 +1800,14 @@ var initialData = [{
             "rm": 1553,
             "bmi": 20.2,
             "bodyage": 27,
-            "subc-body": 13.5,
-            "subc-trunk": 11.6,
-            "subc-arms": 20.6,
-            "subc-legs": 20.1,
-            "skel-body": 34.8,
-            "skel-trunk": 28.1,
-            "skel-arms": 40.3,
-            "skel-legs": 52
+            "subc_body": 13.5,
+            "subc_trunk": 11.6,
+            "subc_arms": 20.6,
+            "subc_legs": 20.1,
+            "skel_body": 34.8,
+            "skel_trunk": 28.1,
+            "skel_arms": 40.3,
+            "skel_legs": 52
         }]
     },
     {
@@ -1822,14 +1822,14 @@ var initialData = [{
             "rm": 1494,
             "bmi": 22,
             "bodyage": 32,
-            "subc-body": 16.9,
-            "subc-trunk": 14.8,
-            "subc-arms": 25.2,
-            "subc-legs": 25.1,
-            "skel-body": 32.3,
-            "skel-trunk": 24.9,
-            "skel-arms": 39.2,
-            "skel-legs": 49.6
+            "subc_body": 16.9,
+            "subc_trunk": 14.8,
+            "subc_arms": 25.2,
+            "subc_legs": 25.1,
+            "skel_body": 32.3,
+            "skel_trunk": 24.9,
+            "skel_arms": 39.2,
+            "skel_legs": 49.6
         }]
     },
     {
@@ -1844,14 +1844,14 @@ var initialData = [{
             "rm": 1744,
             "bmi": 24.9,
             "bodyage": 43,
-            "subc-body": 17.3,
-            "subc-trunk": 15.5,
-            "subc-arms": 24.2,
-            "subc-legs": 24.2,
-            "skel-body": 32.1,
-            "skel-trunk": 24.7,
-            "skel-arms": 38,
-            "skel-legs": 49.4
+            "subc_body": 17.3,
+            "subc_trunk": 15.5,
+            "subc_arms": 24.2,
+            "subc_legs": 24.2,
+            "skel_body": 32.1,
+            "skel_trunk": 24.7,
+            "skel_arms": 38,
+            "skel_legs": 49.4
         }]
     },
     {
@@ -1866,14 +1866,14 @@ var initialData = [{
             "rm": 1664,
             "bmi": 27.4,
             "bodyage": 41,
-            "subc-body": 16.6,
-            "subc-trunk": 15.2,
-            "subc-arms": 22.7,
-            "subc-legs": 22.5,
-            "skel-body": 32,
-            "skel-trunk": 25.2,
-            "skel-arms": 37.5,
-            "skel-legs": 49.3
+            "subc_body": 16.6,
+            "subc_trunk": 15.2,
+            "subc_arms": 22.7,
+            "subc_legs": 22.5,
+            "skel_body": 32,
+            "skel_trunk": 25.2,
+            "skel_arms": 37.5,
+            "skel_legs": 49.3
         }]
     },
     {
@@ -1888,14 +1888,14 @@ var initialData = [{
             "rm": 1331,
             "bmi": 18.8,
             "bodyage": 20,
-            "subc-body": 13.5,
-            "subc-trunk": 11.5,
-            "subc-arms": 20.7,
-            "subc-legs": 20.2,
-            "skel-body": 34.1,
-            "skel-trunk": 27.5,
-            "skel-arms": 40.7,
-            "skel-legs": 51.4
+            "subc_body": 13.5,
+            "subc_trunk": 11.5,
+            "subc_arms": 20.7,
+            "subc_legs": 20.2,
+            "skel_body": 34.1,
+            "skel_trunk": 27.5,
+            "skel_arms": 40.7,
+            "skel_legs": 51.4
         }]
     },
     {
@@ -1910,20 +1910,20 @@ var initialData = [{
             "rm": "",
             "bmi": "",
             "bodyage": "",
-            "subc-body": "",
-            "subc-trunk": "",
-            "subc-arms": "",
-            "subc-legs": "",
-            "skel-body": "",
-            "skel-trunk": "",
-            "skel-arms": "",
-            "skel-legs": ""
+            "subc_body": "",
+            "subc_trunk": "",
+            "subc_arms": "",
+            "subc_legs": "",
+            "skel_body": "",
+            "skel_trunk": "",
+            "skel_arms": "",
+            "skel_legs": ""
         }]
     }
 ];
 
 
-mongoose.connect('mongodb://user:user123@ds159737.mlab.com:59737/mongodeebeeb');
+mongoose.connect('mongodb://user:user123@ds159737.mlab.com:59737/mongodeebee');
 
 var PersonSchema = new Schema({
     name: 'String',
@@ -1940,14 +1940,14 @@ var DataSchema = new Schema({
     rm: 'Number',
     bmi: 'Number',
     bodyage: 'Number',
-    'subc-body': 'Number',
-    'subc-trunk': 'Number',
-    'subc-arms': 'Number',
-    'subc-legs': 'Number',
-    'skel-body': 'Number',
-    'skel-trunk': 'Number',
-    'skel-arms': 'Number',
-    'skel-legs': 'Number'
+    'subc_body': 'Number',
+    'subc_trunk': 'Number',
+    'subc_arms': 'Number',
+    'subc_legs': 'Number',
+    'skel_body': 'Number',
+    'skel_trunk': 'Number',
+    'skel_arms': 'Number',
+    'skel_legs': 'Number'
 });
 
 var Person = mongoose.model('Person', PersonSchema, 'person');

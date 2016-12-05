@@ -30,13 +30,13 @@ app.controller("LoginController", function($scope, $http, $window, CheckAuth) {
 
         $http(req).then(function(response) {
 
-            if (response.data != undefined && response.data.auth != undefined && response.data.auth == false) {
+            if (response.data != undefined && response.data.auth != undefined && response.data.auth === false) {
                 $scope.usernameExistErr = true;
             } else if (response.data != undefined && response.data.auth != undefined && typeof response.data.auth === "number") {
                 CheckAuth.setVal(response.data.auth);
                 $window.location.href = '/home';
 
-            } else if (response.data != undefined && response.data.auth != undefined && response.data.auth == 'INCORRECT') {
+            } else if (response.data != undefined && response.data.auth != undefined && response.data.auth === 'INCORRECT') {
                 $scope.incorrectPass = true;
             }
 
