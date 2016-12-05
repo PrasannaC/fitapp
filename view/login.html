@@ -44,59 +44,48 @@
             margin-bottom: 40px;
             z-index: 900;
         }
+        
+        .mdl-layout {
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .mdl-layout__content {
+            padding: 24px;
+            flex: none;
+        }
     </style>
 </head>
 
-<body data-ng-cloak="true" data-ng-controller="LoginController" class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-            </div>
-            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-                <h3 style="text-align: center;width:100%;">FIT - Fit Insurance Team</h3>
-            </div>
-            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-            </div>
+<body data-ng-cloak="true" data-ng-controller="LoginController" style="background-color:#00BCD4 !important" class="mdl-demo  mdl-color-text--grey-700 mdl-base">
 
-        </header>
+
+    <div class="mdl-layout mdl-js-layout">
         <main class="mdl-layout__content">
-            <div class="mdl-layout__tab-panel is-active" id="overview">
-
-                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-
-                    <div class="mdl-layout mdl-js-layout mdl-color--grey-100">
-
-                        <div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--6dp">
-                            <div class="mdl-card__title mdl-color--primary mdl-color-text--white">
-                                <h2 class="mdl-card__title-text">Login</h2>
-                            </div>
-                            <div class="mdl-card__supporting-text">
-                                <form action="#">
-                                    <div class="mdl-textfield mdl-cell mdl-cell--12-col mdl-js-textfield">
-                                        <input data-ng-model="username" class="mdl-textfield__input" type="text" id="username" data-ng-required="true" />
-                                        <label class="mdl-textfield__label" for="email">Username</label>
-                                        <span ng-if="usernameErr" class="mdl-textfield__error">Username is required.</span>
-                                        <span ng-if="usernameExistErr" class="error_text">Username does not exist in the database.</span>
-                                    </div>
-                                    <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">
-                                        <input data-ng-model="password" class="mdl-textfield__input" type="password" id="password" data-ng-required="true" />
-                                        <label class="mdl-textfield__label" for="userpass">Password</label>
-                                        <span ng-if="passwordErr" class="mdl-textfield__error">Password is required.</span>
-                                        <span ng-if="incorrectPass" class="error_text">Incorrect password.</span>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="mdl-card__actions mdl-card--border">
-                                <button type="submit" data-ng-click="loginclick()" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Sign In </button>
-                            </div>
+            <div class="mdl-card mdl-shadow--6dp">
+                <div style="background-color: #006064 !important;" class="mdl-card__title mdl-color--primary mdl-color-text--white">
+                    <h2 style="padding-left: 36%;" class="mdl-cell mdl-cell--12-col mdl-card__title-text">Login</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input data-ng-model="username" class="mdl-textfield__input" type="text" id="username" data-ng-required="true" />
+                            <label class="mdl-textfield__label" for="email">Username</label>
+                            <span ng-if="usernameErr" class="mdl-textfield__error">Username is required.</span>
+                            <span ng-if="usernameExistErr" class="error_text">Username does not exist in the database.</span>
                         </div>
-
-                    </div>
-                </section>
-
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input data-ng-model="password" class="mdl-textfield__input" type="password" id="password" data-ng-required="true" />
+                            <label class="mdl-textfield__label" for="userpass">Password</label>
+                            <span ng-if="passwordErr" class="mdl-textfield__error">Password is required.</span>
+                            <span ng-if="incorrectPass" class="error_text">Incorrect password.</span>
+                        </div>
+                    </form>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <button style="    color: #006064 !important;" type="submit" data-ng-click="loginclick()" class=" mdl-cell mdl-cell--12-col mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Log in</button>
+                </div>
             </div>
-
-
         </main>
     </div>
 

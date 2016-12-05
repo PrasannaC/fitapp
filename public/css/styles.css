@@ -8284,7 +8284,7 @@ body .demo-blog {
 }
 
 .bg-green {
-    background-color: #009688;
+    background-color: rgba(215, 255, 77, 0.68);
 }
 
 .demo-blog .something-else .mdl-card__media {
