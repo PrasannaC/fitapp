@@ -26,7 +26,7 @@
 <body style="background-color:#00BCD4 !important" data-ng-controller="HomeController">
     <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
         <main class="mdl-layout__content" style="padding-top: 50px !important;">
-            <div class="demo-blog__posts mdl-grid">
+            <div class="demo-blog__posts content-grid mdl-grid">
                 <div class="mdl-card mdl-cell mdl-cell--8-col">
                     <div class=" mdl-shadow--2dp mdl-card__media logo-pic mdl-color-text--grey-50">
 
@@ -35,9 +35,9 @@
                 </div>
                 <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
                     <button data-ng-click="logout()" title="Logout" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab" style="background-color: #E65100;">
-              <i title="Logout" class="material-icons mdl-color-text--white"  role="presentation">power_settings_new</i>
-              <span class="visuallyhidden">add</span>
-            </button>
+                        <i title="Logout" class="material-icons mdl-color-text--white" role="presentation">power_settings_new</i>
+                        <span class="visuallyhidden">add</span>
+                    </button>
                     <div style="background-color: #3f51b5;" class="mdl-card__media mdl-color-text--grey-600">
                         <img style="background-color:white;height:256px;width:256px;" src="images/user.png">
                     </div>
@@ -69,22 +69,21 @@
                     </div>
 
                 </div>-->
-
-                <div style="min-height: 127px !important;width: 651px !important;padding: 16px;font-size: 16px!important;padding-left: 2.3%;" class=" bg-green mdl-card mdl-cell mdl-cell--7-col">
-                    <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <div style="max-height: 381px !important; min-height: 127px !important;padding: 16px;font-size: 16px!important;padding-left: 2.3%;" class=" bg-green mdl-card mdl-cell mdl-cell--8-col ">
+                    <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp ">
                         <thead>
                             <tr>
 
-                                <th class="mdl-data-table__cell--non-numeric">Weight</th>
-                                <th class="mdl-data-table__cell--non-numeric">Total Body Fat</th>
-                                <th class="mdl-data-table__cell--non-numeric">Visceral Fat</th>
-                                <th class="mdl-data-table__cell--non-numeric">Resting Metabolism</th>
-                                <th class="mdl-data-table__cell--non-numeric">BMI</th>
-                                <th class="mdl-data-table__cell--non-numeric">Body Age</th>
+                                <th class="mdl-data-table__cell--non-numeric ">Weight</th>
+                                <th class="mdl-data-table__cell--non-numeric ">Total Body Fat</th>
+                                <th class="mdl-data-table__cell--non-numeric ">Visceral Fat</th>
+                                <th class="mdl-data-table__cell--non-numeric ">Resting Metabolism</th>
+                                <th class="mdl-data-table__cell--non-numeric ">BMI</th>
+                                <th class="mdl-data-table__cell--non-numeric ">Body Age</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr data-ng-repeat="data in datas">
+                            <tr data-ng-repeat="data in datas ">
                                 <td>{{data.weight}} kg</td>
                                 <td>{{data.fat}}%</td>
                                 <td>{{data.vfat}}</td>
@@ -95,24 +94,28 @@
 
                         </tbody>
                     </table>
-                    <table style=" width: 602px !important;margin-top: 20px;" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                    <table style=" width: 602px !important;margin-top: 20px; " class="mdl-data-table mdl-js-data-table mdl-shadow--2dp ">
                         <thead>
                             <tr>
 
-                                <th class="mdl-data-table__cell--non-numeric">
-                                    <center>Subcutaneuous Fat<br>(Body)
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Subcutaneuous Fat
+                                        <br>(Body)
                                         <center>
                                 </th>
-                                <th class="mdl-data-table__cell--non-numeric">
-                                    <center>Subcutaneuous Fat<br>(Trunk)
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Subcutaneuous Fat
+                                        <br>(Trunk)
                                         <center>
                                 </th>
-                                <th class="mdl-data-table__cell--non-numeric">
-                                    <center>Subcutaneuous Fat<br>(Arms)
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Subcutaneuous Fat
+                                        <br>(Arms)
                                         <center>
                                 </th>
-                                <th class="mdl-data-table__cell--non-numeric">
-                                    <center>Subcutaneuous Fat<br>(Legs)
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Subcutaneuous Fat
+                                        <br>(Legs)
                                         <center>
                                 </th>
 
@@ -120,7 +123,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr data-ng-repeat="data in datas">
+                            <tr data-ng-repeat="data in datas ">
                                 <td>{{data.subc_body}}%</td>
                                 <td>{{data.subc_trunk}}%</td>
                                 <td>{{data.subc_arms}}%</td>
@@ -130,32 +133,172 @@
 
                         </tbody>
                     </table>
-                    <table style=" width: 602px !important;margin-top: 20px;" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                    <table style=" width: 602px !important;margin-top: 20px; " class="mdl-data-table mdl-js-data-table mdl-shadow--2dp ">
                         <thead>
                             <tr>
 
 
-                                <th class="mdl-data-table__cell--non-numeric">
-                                    <center>Skeletal Muscle<br>(Body)
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Skeletal Muscle
+                                        <br>(Body)
                                     </center>
                                 </th>
-                                <th class="mdl-data-table__cell--non-numeric">
-                                    <center>Skeletal Muscle<br>(Trunk)
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Skeletal Muscle
+                                        <br>(Trunk)
                                     </center>
                                 </th>
-                                <th class="mdl-data-table__cell--non-numeric">
-                                    <center>Skeletal Muscle<br>(Arms)
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Skeletal Muscle
+                                        <br>(Arms)
                                     </center>
                                 </th>
-                                <th class="mdl-data-table__cell--non-numeric">
-                                    <center>Skeletal Muscle<br>(Legs)
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Skeletal Muscle
+                                        <br>(Legs)
                                     </center>
                                 </th>
 
                             </tr>
                         </thead>
                         <tbody>
-                            <tr data-ng-repeat="data in datas">
+                            <tr data-ng-repeat="data in datas ">
+
+                                <td>{{data.skel_body}}%</td>
+                                <td>{{data.skel_trunk}}%</td>
+                                <td>{{data.skel_arms}}%</td>
+                                <td>{{data.skel_legs}}%</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop" style="background-color: #01579B !important">
+
+                    <div style="text-align:-webkit-center !important;background-color: #01579B!important" class="mdl-card__supporting-text meta bg-blue mdl-color-text--grey-600 ">
+                        <div class="mdl-cell mdl-cell--12-col ">
+                            <h3><strong>Goals </strong></h3>
+                        </div>
+
+                    </div>
+                    <div style=" background-color: #01579B!important;max-height: 57px;   line-height: normal !important; padding: 10px !important;" class="mdl-card__supporting-text meta bg-blue mdl-color-text--grey-600 ">
+                        <div class="mdl-cell mdl-cell--12-col ">
+                            <strong>1) Your ideal body age should be {{data.idealbodyage}} years. </strong>
+                        </div>
+                    </div>
+                    <div style="  background-color: #01579B!important;max-height: 57px;   line-height: normal !important;   padding: 10px !important;" class="mdl-card__supporting-text meta bg-blue mdl-color-text--grey-600 ">
+                        <div class="mdl-cell mdl-cell--12-col ">
+                            <strong>2) Your ideal body weight should be {{data.idealbodyweight}} kg. </strong>
+                        </div>
+                    </div>
+                    <div style="background-color: #01579B!important;  max-height: 57px;   line-height: 25px !important;   padding: 10px !important;" class="mdl-card__supporting-text meta bg-blue mdl-color-text--grey-600 ">
+                        <div class="mdl-cell mdl-cell--12-col ">
+                            <strong>3) Visceral fat rating ideally should be less than 9.</strong>
+                        </div>
+                    </div>
+
+                    <div style=" background-color: #01579B !important; max-height: 57px;   line-height: 22px !important;   padding: 10px !important;" class="mdl-card__supporting-text meta bg-blue mdl-color-text--grey-600 ">
+                        <div class="mdl-cell mdl-cell--12-col ">
+                            <strong>4) Body fat should be between {{data.idealfat}}</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div style="min-height: 127px !important;width: 651px !important;padding: 16px;font-size: 16px!important;padding-left: 2.3%; " class=" bg-green mdl-card mdl-cell mdl-cell--8-col ">
+                    <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp ">
+                        <thead>
+                            <tr>
+
+                                <th class="mdl-data-table__cell--non-numeric ">Weight</th>
+                                <th class="mdl-data-table__cell--non-numeric ">Total Body Fat</th>
+                                <th class="mdl-data-table__cell--non-numeric ">Visceral Fat</th>
+                                <th class="mdl-data-table__cell--non-numeric ">Resting Metabolism</th>
+                                <th class="mdl-data-table__cell--non-numeric ">BMI</th>
+                                <th class="mdl-data-table__cell--non-numeric ">Body Age</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="data in datas ">
+                                <td>{{data.weight}} kg</td>
+                                <td>{{data.fat}}%</td>
+                                <td>{{data.vfat}}</td>
+                                <td>{{data.rm}}kcal</td>
+                                <td>{{data.bmi}}</td>
+                                <td>{{data.bodyage}} years</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <table style=" width: 602px !important;margin-top: 20px; " class="mdl-data-table mdl-js-data-table mdl-shadow--2dp ">
+                        <thead>
+                            <tr>
+
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Subcutaneuous Fat
+                                        <br>(Body)
+                                        <center>
+                                </th>
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Subcutaneuous Fat
+                                        <br>(Trunk)
+                                        <center>
+                                </th>
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Subcutaneuous Fat
+                                        <br>(Arms)
+                                        <center>
+                                </th>
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Subcutaneuous Fat
+                                        <br>(Legs)
+                                        <center>
+                                </th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="data in datas ">
+                                <td>{{data.subc_body}}%</td>
+                                <td>{{data.subc_trunk}}%</td>
+                                <td>{{data.subc_arms}}%</td>
+                                <td>{{data.subc_legs}}%</td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <table style=" width: 602px !important;margin-top: 20px; " class="mdl-data-table mdl-js-data-table mdl-shadow--2dp ">
+                        <thead>
+                            <tr>
+
+
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Skeletal Muscle
+                                        <br>(Body)
+                                    </center>
+                                </th>
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Skeletal Muscle
+                                        <br>(Trunk)
+                                    </center>
+                                </th>
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Skeletal Muscle
+                                        <br>(Arms)
+                                    </center>
+                                </th>
+                                <th class="mdl-data-table__cell--non-numeric ">
+                                    <center>Skeletal Muscle
+                                        <br>(Legs)
+                                    </center>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-ng-repeat="data in datas ">
 
                                 <td>{{data.skel_body}}%</td>
                                 <td>{{data.skel_trunk}}%</td>
@@ -166,22 +309,27 @@
                         </tbody>
                     </table>
                 </div>
-                <!--<div style="min-height: 127px !important;width: 607px !important;padding: 16px;font-size: 16px!important;" class="mdl-card mdl-cell mdl-cell--7-col">
+
+                <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop ">
+                    <p>asd</p>
+                </div>-->
+
+                <!--<div style="min-height: 127px !important;width: 607px !important;padding: 16px;font-size: 16px!important; " class="mdl-card mdl-cell mdl-cell--7-col ">
 
                 </div>
-                <div style="min-height: 127px !important;width: 540px !important;padding: 16px;font-size: 16px!important;" class="mdl-card mdl-cell mdl-cell--7-col">
+                <div style="min-height: 127px !important;width: 540px !important;padding: 16px;font-size: 16px!important; " class="mdl-card mdl-cell mdl-cell--7-col ">
 
                 </div>-->
             </div>
             </footer>
         </main>
-        <div class="mdl-layout__obfuscator"></div>
+        <div class="mdl-layout__obfuscator "></div>
     </div>
 
-    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="https://code.getmdl.io/1.2.1/material.min.js "></script>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
-<script src="js/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js "></script>
+<script src="js/app.js "></script>
 
 
 </html>

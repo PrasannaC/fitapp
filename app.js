@@ -2023,6 +2023,7 @@ app.post('/auth', function(req, res) {
 });
 
 app.post('/GetData', function(req, res) {
+    console.log('asd');
     var key = req.body.key;
     if (key == null)
         res.send(null);
@@ -2035,6 +2036,7 @@ app.post('/GetData', function(req, res) {
             function(err, user) {
                 if (err) throw err
                 console.log(JSON.stringify(user));
+
                 res.send(user);
             });
 
@@ -2042,7 +2044,20 @@ app.post('/GetData', function(req, res) {
     }
 });
 
-app.listen(process.env.PORT || 80, function() {
+
+// function devine(isman, height) {
+//     var heightinches = height / 2.54;
+//     var excessheight = heightinches - 60; //Ignore 5 feet.
+//     var weight = 2.3 * excessheight;
+//     if (isman) {
+//         weight += 50;
+//     } else {
+//         weight += 45.5;
+//     }
+//     return weight;
+// }
+
+app.listen(process.env.PORT || 8000, function() {
 
 
 });

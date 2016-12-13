@@ -64,6 +64,9 @@ app.controller("HomeController", function($scope, $http, $window, CheckAuth) {
             $scope.data.name = $scope.data.FullName.split(' ')[0];
             $scope.data.weight = $scope.data.data[0].weight;
             $scope.data.gender = $scope.data.gender == "M" ? "Male" : "Female";
+            $scope.data['idealbodyage'] = $scope.data.age;
+            $scope.data['idealbodyweight'] = $scope.devine($scope.data.gender == 'Male', $scope.data.height);
+            $scope.data['idealfat'] = $scope.data.gender == 'Male' ? '14% to 17%' : '21% to 24%';
         }
     }, function(data) {
         $window.location.href = '/login';
@@ -71,6 +74,18 @@ app.controller("HomeController", function($scope, $http, $window, CheckAuth) {
 
     $scope.logout = function() {
         $window.location.href = '/login';
+    }
+
+    $scope.devine = function(isman, height) {
+        var heightinches = height / 2.54;
+        var excessheight = heightinches - 60; //Ignore 5 feet.
+        var weight = 2.3 * excessheight;
+        if (isman) {
+            weight += 50;
+        } else {
+            weight += 45.5;
+        }
+        return weight.toFixed(1);
     }
 
 

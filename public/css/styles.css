@@ -8107,6 +8107,10 @@ body .demo-blog {
     flex-shrink: 0;
 }
 
+.bg-pink {
+    background-color: #F50057;
+}
+
 .demo-blog.mdl-layout .mdl-layout__content {
     padding-top: 230px;
     position: relative;
